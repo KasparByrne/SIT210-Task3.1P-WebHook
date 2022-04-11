@@ -1,4 +1,4 @@
-// This #include statement was automatically added by the Particle IDE.
+// Get and send temperature data from temperature sensor to ThingSpeak
 #include <Adafruit_DHT.h>
 
 DHT dht(D4, DHT22); //(pin, model)
